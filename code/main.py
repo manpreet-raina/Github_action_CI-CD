@@ -1,7 +1,12 @@
-def min_max(data):
-  print(min(data))
-  print(max(data))
-  return min(data), max(data)
-  
-if __name__ == "__main__":
-  min_max([4,6,7,3,2,1])
+import requests
+
+def handler(event, context):
+    response = requests.get("https://jsonplaceholder.typicode.com/todos/1")
+    res = {
+        "event": event,
+        "output": response.json(),
+        "context": context
+    }
+    print(res)
+
+    return None
