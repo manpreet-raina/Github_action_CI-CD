@@ -19,7 +19,3 @@ def min(values):
           _min = val
 
   return _min
-
-if __name__ == "__main__":
-  print(max([9,7,2,4]))
-  print(min([9,7,2,4]))
