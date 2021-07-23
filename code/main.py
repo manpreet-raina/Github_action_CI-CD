@@ -7,6 +7,6 @@ def handler(event, context):
         "output": response.json(),
         "context": context
     }
-    print(res)
+    print(res,res["output"])
 
     return None
