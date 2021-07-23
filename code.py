@@ -6,7 +6,7 @@ def max(values):
       if val > _max:
           _max = val
 
-  print (_max)
+  print (_max, "Deploy")
   return _max
 
 
