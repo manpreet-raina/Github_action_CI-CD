@@ -60,4 +60,4 @@ jobs:
             #name of my AWS Lambda Function
             function_name: Test_lambda
             #contains all the files in my github repository
-            zip_file: Test_lambda.zip
+            zip_file: code.main.handler.zip
