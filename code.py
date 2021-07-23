@@ -11,6 +11,7 @@ def max(values):
 
 
 def min(values):
+  print("Hi! Deploy to aws lambda")
 
   _min = values[0]
 
