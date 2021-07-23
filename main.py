@@ -1,12 +1,8 @@
-import requests
+from code import min, max
 
 def handler(event, context):
-    response = requests.get("https://jsonplaceholder.typicode.com/todos/1")
-    res = {
-        "event": event,
-        "output": response.json(),
-        "context": context
-    }
-    print(res,res["output"])
-
+    element =[9,8,7,6,5]
+    print(min(element))
+    print(max(element))
+    
     return None
